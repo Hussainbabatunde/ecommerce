@@ -28,3 +28,17 @@ nav{
     border-radius: 50%;
     padding: 5px;
 }
+.loginscope{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    text-decoration: none;
+    color: blue;
+}
+.loginscope:hover{
+    cursor: pointer;
+}
+.link{
+    color: blue;
+    text-decoration: none;
+}
