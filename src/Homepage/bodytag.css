@@ -1,0 +1,84 @@
+.wordings{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.wordings1{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wordings2{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wordings3{
+    color: white;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    border: 2px solid rgb(255, 255, 255);
+    color:white;
+    width: 100px;
+    padding:8px;
+    border-radius: 40px;
+    margin-right: 30px;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.carrier{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer:hover{
+    cursor: pointer;
+    background-color: rgba(256 ,256 ,256, 0.3);
+}
+@media (max-width: 720px) {
+    .wordings{
+        font-size: 50px;
+    }
+    .wordings1{
+        font-size: 50px;
+    }
+    .wordings2{
+        font-size: 50px;
+    }
+    .wordings3{
+        font-size: 50px;
+    }
+    
+}
+@media (max-width: 500px){
+    .wordings{
+        font-size: 40px;
+    }
+    .wordings1{
+        font-size: 40px;
+    }
+    .wordings2{
+        font-size: 40px;
+    }
+    .wordings3{
+        font-size: 40px;
+    }
+    .footer{
+        margin-top: 80px;
+    }
+}
