@@ -36,3 +36,11 @@
 .currentTime{
     margin-left: 17px;
 }
+@media (max-width: 400px) {
+    .playstyle{
+        width: 325px;
+    }
+    .progressBar{
+        width: 50px;
+    }
+}

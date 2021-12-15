@@ -5,6 +5,7 @@ import Shop from "./Shop/Shop";
 import Cart from './Cart/Cart';
 import './App.css';
 import Login from "./features/Login";
+import Newacc from "./features/Createacc";
 import {useStateValue} from './Shop/StateProvider';
 import { auth } from "./features/firbase";
 
@@ -41,6 +42,7 @@ function App() {
       <Route path='/shop' element={<Shop />}/>
       <Route path='/cart' element={<Cart />}/>
       <Route path='/' element={<Login />}/>
+      <Route path='/Newacc' element={<Newacc />}/>
       </Routes>
       </Router>
   );

@@ -1,4 +1,4 @@
-.login{
+.login1{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -11,7 +11,7 @@
     border-radius: 4px;
     box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
 }
-.login__email{
+.login__email1{
     height: 50px;
     width: 300px;
     margin-top: 40px;
@@ -21,7 +21,7 @@
     
 
 }
-.login__password{
+.login__password1{
     height: 50px;
     width: 300px;
     margin-top: 20px;
@@ -32,7 +32,7 @@
     padding-left: 10px;
 
 }
-.login__button{
+.login__button1{
     height: 50px;
     width: 310px;
     margin-top: 20px;
@@ -41,11 +41,11 @@
     background-color:black;
     color: white;
 }
-:hover.login__button{
+:hover.login__button1{
     background-color: red;
 
 }
-.login__createaccountbutton{
+.login__createaccountbutton1{
      background-color:black;
     height: 50px;
     width: 215px;
@@ -54,22 +54,22 @@
     border: none;
     color: white;
 }
-:hover.login__createaccountbutton{
+:hover.login__createaccountbutton1{
     background-color: red;
 
 }
-.login__forgotpassword{
+.login__forgotpassword1{
     color: black;
     margin-top:20px;
     text-decoration: none;
     
 }
 
-.login__header{
+.login__header1{
     color:black;
     margin-top:20px;
 }
-.login__confirmpassword{
+.login__confirmpassword1{
     height: 50px;
     width: 300px;
     margin-top: 20px;
@@ -81,17 +81,18 @@
 
 }
 
-.login__link{
+.login__link1{
     text-decoration: none;
 
 }
-:hover.login__link{
+:hover.login__link1{
     text-decoration:underline;
     color: white;
 }
 @media (max-width: 375px){
-    .login{
+    .login1{
         width: 350px;
+        height: 400px;
         margin-top: 150px;
     }
 }

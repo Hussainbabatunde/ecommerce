@@ -68,17 +68,27 @@
 @media (max-width: 500px){
     .wordings{
         font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 150px;
     }
     .wordings1{
         font-size: 40px;
+        margin-bottom: 20px;
     }
     .wordings2{
         font-size: 40px;
+        margin-bottom: 20px;
     }
     .wordings3{
         font-size: 40px;
+        margin-bottom: 20px;
     }
     .footer{
-        margin-top: 80px;
+        margin-top: 120px;
+    }
+}
+@media (max-width: 400px) {
+    .wordings1{
+        margin-left: 50px;
     }
 }

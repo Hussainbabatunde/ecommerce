@@ -72,3 +72,19 @@
         margin-left: 120px;
     }
 }
+@media (max-width: 400px) {
+    .container{
+        width: 320px;
+    }
+    .discimage1{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .container{
+        margin-left: 10px;
+    }
+    .cartbutton{
+        margin-left: 70px;
+    }
+}
